@@ -8,7 +8,8 @@
 .header-content{
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
+    align-items: baseline;
+    padding: 26px;
 }
 
 .header-content .logo{
@@ -16,7 +17,7 @@
 }
 
 .header-content .logo h5{
-    font-size: 1rem;
+    font-size: clamp(1rem,1.3rem,1.5rem);
     text-align: center;
 }
 
@@ -62,8 +63,7 @@
         flex-direction: column;
     }
     .header-content .logo h5{
-        font-size: 1.3rem;
-        max-width: 50%;
+        max-width: 100%;
     }
     .navb{
         display: none;
