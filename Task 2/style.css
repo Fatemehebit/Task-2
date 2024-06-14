@@ -226,20 +226,16 @@
 
 /* ----------------------------------------------------------------------------- */
 
-.logo-border{
+.logo-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
     border-top: 2px solid #C0CCDA1A;
     border-bottom: 2px solid #C0CCDA1A;
     margin: 2rem;
-}
-
-.logo-list{
-    display: flex;
-    justify-content: center;
-}
-
-.logo-list ul li{
-    list-style: none;
-    display: inline;
+    padding: 2rem;
 }
 
 .airbnb{
@@ -253,15 +249,13 @@
 }
 
 .google{
-    width: 7%;
+    width: 9%;
     height: 60%;
-    padding-bottom: 0.7rem;
 }
 
 .Microsoft{
-    width: 10%;
-    height: 55%;
-    padding-bottom: .8rem;
+    width: 12%;
+    height: 65%;
 }
 
 .walmart{
@@ -270,9 +264,46 @@
 }
 
 .fedex{
-    width: 5%;
-    height: 47%;
-    padding-bottom: 1.3rem;
+    width: 8%;
+    height: 48%;
+}
+
+@media (max-width:545px){
+    .logo-list{
+        overflow-x: auto;
+        padding: 1rem;
+        margin: 1rem;
+        gap: 14px;
+    }
+    .airbnb{
+        width: 78px;
+        height: 20px;
+    }
+    
+    .hubspot{
+        width: 78px;
+        height: 18px;
+    }
+    
+    .google{
+        width: 74px;
+        height: 16px;
+    }
+    
+    .Microsoft{
+        width: 74px;
+        height: 16px;
+    }
+    
+    .walmart{
+        width: 74px;
+        height: 16px;
+    }
+    
+    .fedex{
+        width: 70px;
+        height: 12px;
+    }
 }
 
 /* ------------------------------------- */
