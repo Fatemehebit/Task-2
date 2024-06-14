@@ -72,3 +72,424 @@
         display: none;
     }
 }
+
+/* -------------------------------- */
+
+.Temukan-box{
+    background-color: #FFD803;
+    max-width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto auto 2rem ;
+}
+
+.Temukan-style{
+    left: 4rem;
+    max-width: 50%;
+    position: absolute;
+}
+
+.Temukan-box h1{
+    font-size: clamp(1.5rem,2.25rem,3.5rem);
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+    color: #FFFFFF;
+}
+
+.Temukan-box p{
+    font-size: clamp(.5rem,.9rem,1.25rem);
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+    line-height: .9rem;
+}
+
+.Mulai-button a{
+    font-size: 1.25rem;
+    background-color: #FFFFFF;
+    color: #FFD803;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 0.3rem 2.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.Tutorial-button a{
+    font-size: 1.25rem;
+    background-color: #FFD803;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 0.3rem 2rem;
+    text-decoration: none;
+}
+
+.Temukan-Btn{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.Temukan-box img{
+    max-width: 446.57px;
+    max-height: 394.22px;
+    position: relative;
+    left: 12rem;
+    top: -1.5rem;
+}
+
+@media (max-width: 545px){
+    .Temukan-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 90%;
+        height: 443px;
+    }
+
+    .Temukan-style{
+        max-width: 100%;
+        left: 2rem;
+        padding-top: 2rem;
+    }
+
+    .Temukan-style h1{
+        line-height: 35px;
+        font-weight: 700;
+        max-width: 257px;
+    }
+
+    .Temukan-style p{
+        display: none;
+    }
+
+    .Tutorial-button{
+        display: none;
+    }
+
+    .Temukan-box img{
+        width: 307px;
+        height: 307px;
+        left: 3.9rem;
+        top: 9.5rem;
+    }
+}
+
+/* ---Resources-boxes-- */
+.Resources-boxes{
+    max-width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: auto;
+}
+
+/* -------Tutorial-Resources--------- */
+.Tutorial-Resources{
+    background-color: #FFD803;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.Tutorial-Resources h4{
+    width: clamp(50%, 100%, 100%);
+    text-align: center;
+    font-size: clamp(1rem,1.3rem,1.5rem);
+    margin-bottom: .5rem;
+}
+
+.Tutorial-Resources p{
+    text-align: center;
+    font-size: clamp(.5rem,.7rem,.9rem);
+    line-height: 22.5px;
+}
+
+.Tutorial-Resources img{
+    max-width: 95%;
+}
+
+@media (max-width:545px){
+    .Resources-boxes{
+        overflow-x: auto;
+        max-width: 90%;
+    }
+
+    .Tutorial-Resources p{
+        width: 275px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.logo-border{
+    border-top: 2px solid #C0CCDA1A;
+    border-bottom: 2px solid #C0CCDA1A;
+    margin: 2rem;
+}
+
+.logo-list{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-list ul li{
+    list-style: none;
+    display: inline;
+}
+
+.airbnb{
+    max-width: 10%;
+    max-height: 70%;
+}
+
+.hubspot{
+    width: 10%;
+    height: 70%;
+}
+
+.google{
+    width: 7%;
+    height: 60%;
+    padding-bottom: 0.7rem;
+}
+
+.Microsoft{
+    width: 10%;
+    height: 55%;
+    padding-bottom: .8rem;
+}
+
+.walmart{
+    width: 12%;
+    height: 66%;
+}
+
+.fedex{
+    width: 5%;
+    height: 47%;
+    padding-bottom: 1.3rem;
+}
+
+/* ------------------------------------- */
+
+.Ada {
+    text-align: center;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-dir{
+    width: 33%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icon-dir img{
+    width: 36px;
+}
+
+.first-row h4{
+    padding: .7rem 0;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-row h4{
+    padding: .7rem 0;
+}
+
+.second-row img{
+    margin-top: 1.5rem;
+}
+
+/* ---------------------------------------- */
+
+.new-resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saly-img{
+    width: 70%;
+    margin-bottom: .5rem;
+}
+
+.new-resources h5{
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.new-resources h2{
+    margin-bottom: 2rem;
+}
+
+.new-resources img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: 60% -90%;
+    border-radius: 10px;
+}
+
+.yellow-box{
+    border: 1px solid #FFD803;
+    background-color: #FFD803;
+    padding: 2rem 27rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width:545px){
+    .yellow-box{
+        padding: 1.5rem 12rem;
+    }
+}
+
+/* ---------------------------------------------------- */
+
+.Note-HANDZ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    gap: .5rem;
+}
+
+.Note{
+    width: 42%;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: #FFD803;
+}
+
+.Note img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.HANDZ{
+    width: 42%;
+    text-align: center;
+    background-color: #FFD803;
+    padding-top: 2rem;
+}
+
+.HANDZ img{
+    width: 80%;
+    border-radius: 10px;
+    aspect-ratio: 16/9.35;
+}
+
+/* ----------------------------------- */
+
+.Gabung{
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    background-color: #FFD803;
+    margin-bottom: 4rem;
+}
+
+
+.Gabung img{
+    width: 50%;
+    border-radius: 60%;
+    background-position: left center;
+}
+
+.Gabung-grup a{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #FFD803;
+    border-radius: 8px;
+    padding: .5rem 2rem;
+}
+
+/* ---------------------------------------------- */
+
+footer{
+    background-color: #0B0D17;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem 0 2rem 0;
+}
+
+.resophemera{
+    color: #FFFFFF;
+}
+
+.resophemera h5{
+    font-size: 24px;
+}
+
+.Download-License{
+    margin: 1rem 0;
+}
+
+.Download-License ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 24px;
+}
+
+.Download-License ul li a{
+    font-weight: 300;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Tentang{
+    margin-bottom: 1rem;
+}
+
+.Tentang ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 24px;
+}
+
+.Tentang ul li a{
+    font-weight: 300;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.copy-right{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Manrope";
+    color: #D9DBE1;
+}
+
+.Dapatkan ul li{
+    color: #D9DBE1;
+    list-style-type: none;
+    margin-bottom: .4rem
+}
+
+.Dapatkan ul li:first-child{
+    margin-bottom: 1rem;
+}
+
+.Dapatkan ul li img{
+    width: 135px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    list-style-type: none;
+}
